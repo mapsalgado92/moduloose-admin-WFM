@@ -34,7 +34,13 @@ function App() {
                   {collection ? collection.name : "Select Collection"}
               </Dropdown.Toggle>
               <Dropdown.Menu>
-                {collectionsList.map(collection => {
+                {collectionsList.sort((a, b)=>{
+              var x = a.name.toLowerCase();
+              var y = b.name.toLowerCase();
+              if (x < y) {return -1;}
+              if (x > y) {return 1;}
+              return 0;
+            }).map(collection => {
                   return(
                     <Dropdown.Item id={collection.name} onClick={() => setCollection(collection)}>{collection.name}</Dropdown.Item>
                   );
