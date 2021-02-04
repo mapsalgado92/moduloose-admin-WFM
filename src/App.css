@@ -6,23 +6,25 @@
     width: 100vw;
     margin: 0;
     padding: 0;
-    background: #ADA996;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    font-family: 'Rubik', serif;
+   font-family: 'Rubik', serif;
 }
 
-.App h1 {
-    font-size: 1.5rem;
+.title-div {
+    height: 2.5em;
+}
+
+.title-div h1 {
+    font-size: 2em;
     font-family: "Rubik";
     font-weight: 900;
-    margin-top: -0.5em;
     color: rgb(34, 31, 31);
+    margin: 0;
+    padding:0;
 }
 
 #content-container {
     margin: 0;
-    padding: 1rem;
+    padding: 0 1rem 0;
     box-sizing: border-box;
     width: 100%;
     height: 100%;
@@ -36,8 +38,7 @@
 #workspace-wrapper {
     display: flex;
     flex-direction: column;
-    padding: 1.5em;
-    margin: 0;
+    padding: 2.5em 1em 1em;
     height: 100%;
 }
 
@@ -70,12 +71,17 @@
   min-height: 150px;
 }
 
-
-
 #editor{
     height: 100%;
     min-height: 200px;
     margin-top: 1em;
+}
+
+#main-dropdown {
+    background-color:rgb(150, 0, 0);
+    font-weight: 400;
+    color: white;
+    border-radius: 0.5em;
 }
 
 .dropdown-toggle {
@@ -95,6 +101,10 @@
     text-align: left;
     overflow: hidden;
     border: solid 1px;
+}
+
+.dropdown-item:active {
+    background-color: rgb(155, 113, 113);
 }
 
 .copy-button {

@@ -30,14 +30,16 @@ function App() {
   
   //RENDER USER PAGE
   return (
-    <div id="app" className="App">
+    <div id="app" className="App" style={{background: `url('${process.env.PUBLIC_URL}/images/background-light-grey.png')`}}>
       <div id="content-container" className="row container-fluid">
         <div id="selector-wrapper" className="col-5">
-          <h1>Moduloose</h1>
+          <div className="title-div">
+            <h1>Moduloose</h1>
+          </div>
           {/*RENDER GROUP DROPDOWN*/}
           { groups &&
             <Dropdown>
-              <Dropdown.Toggle variant="light">
+              <Dropdown.Toggle variant="light" id="main-dropdown">
                   {group ? group.name : "Select Group"}
               </Dropdown.Toggle>
               <Dropdown.Menu>
