@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/moduloose-admin-WFM/static/css/main.9d532fc6.chunk.css",
+    "main.js": "/moduloose-admin-WFM/static/js/main.8ebc2c00.chunk.js",
+    "main.js.map": "/moduloose-admin-WFM/static/js/main.8ebc2c00.chunk.js.map",
+    "runtime-main.js": "/moduloose-admin-WFM/static/js/runtime-main.d0750d70.js",
+    "runtime-main.js.map": "/moduloose-admin-WFM/static/js/runtime-main.d0750d70.js.map",
+    "static/css/2.150d169a.chunk.css": "/moduloose-admin-WFM/static/css/2.150d169a.chunk.css",
+    "static/js/2.a3a1fa44.chunk.js": "/moduloose-admin-WFM/static/js/2.a3a1fa44.chunk.js",
+    "static/js/2.a3a1fa44.chunk.js.map": "/moduloose-admin-WFM/static/js/2.a3a1fa44.chunk.js.map",
+    "index.html": "/moduloose-admin-WFM/index.html",
+    "static/css/2.150d169a.chunk.css.map": "/moduloose-admin-WFM/static/css/2.150d169a.chunk.css.map",
+    "static/css/main.9d532fc6.chunk.css.map": "/moduloose-admin-WFM/static/css/main.9d532fc6.chunk.css.map",
+    "static/js/2.a3a1fa44.chunk.js.LICENSE.txt": "/moduloose-admin-WFM/static/js/2.a3a1fa44.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d0750d70.js",
+    "static/css/2.150d169a.chunk.css",
+    "static/js/2.a3a1fa44.chunk.js",
+    "static/css/main.9d532fc6.chunk.css",
+    "static/js/main.8ebc2c00.chunk.js"
+  ]
+}
